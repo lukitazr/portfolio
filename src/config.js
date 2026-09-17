@@ -1,6 +1,6 @@
 export const CONFIG = {
     GITHUB_USERNAME: 'lukitazr', 
-    LINKEDIN_PHOTO: './assets/avatar.jpg',
+    LINKEDIN_PHOTO: './assets/avatar-D9TPG_JP.jpg',
     BACKGROUND_WORDS: ['Code', 'Design', 'Innovation', 'Full Stack', 'Problem Solver', 'Creativity', 'Logic', 'Algorithm', 'Frontend', 'Backend', 'Node.js', 'Live Forever', 'Slide Away', 'Oasis', 'Argentina', 'River Plate'],
     TYPEWRITER_PHRASES: [
         "Desarrollador Full Stack",
