@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "dependencies": {
+    "marked": "18.0.13"
+  },
   "devDependencies": {
     "tailwindcss": "^4.1.18",
     "vite": "^7.3.1"
