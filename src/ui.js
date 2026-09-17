@@ -251,9 +251,10 @@ async function openModal(repo) {
     
     if (readmeContent) {
         // Usar marked para parsear markdown y aplicar clases de tipografía
+        const parseMarkdown = (window.marked && window.marked.parse) ? window.marked.parse : (text) => text;
         descContainer.innerHTML = `
             <div class="prose prose-invert prose-blue max-w-none">
-                ${marked.parse(readmeContent)}
+                ${parseMarkdown(readmeContent)}
             </div>
         `;
     } else {
